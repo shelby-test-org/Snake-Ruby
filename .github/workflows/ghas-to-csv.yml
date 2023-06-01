@@ -1,7 +1,7 @@
 name: GHAS to CSV data report run
 on: [push]
 jobs:
-  Runs-ghas-to-csv-report:
+  data-gathering:
     runs-on: ubuntu-latest
     steps:
       - name: CSV export
