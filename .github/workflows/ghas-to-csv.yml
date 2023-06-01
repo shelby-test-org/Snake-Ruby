@@ -1,6 +1,6 @@
 name: GHAS to CSV data report run
 on: 
-  [push]:
+  push:
   workflow_dispatch:
 jobs:
   data-gatherings:
