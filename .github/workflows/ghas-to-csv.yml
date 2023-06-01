@@ -7,7 +7,7 @@ jobs:
       - name: CSV export
         uses: advanced-security/ghas-to-csv@v2
         env:
-          GITHUB_PAT: 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
+          GITHUB_PAT: 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
           GITHUB_REPORT_SCOPE: "organization"
           SCOPE_NAME: shelby-test-org
           
