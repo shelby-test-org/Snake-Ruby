@@ -1,4 +1,4 @@
-name: Gather data for Flat Data
+name: Gather data for csv export
 on:
   workflow_dispatch:
 #   schedule:
