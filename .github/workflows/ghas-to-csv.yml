@@ -1,5 +1,7 @@
 name: GHAS to CSV data report run
-on: [push]
+on: 
+  [push]:
+  workflow_dispatch:
 jobs:
   data-gatherings:
     runs-on: ubuntu-latest
